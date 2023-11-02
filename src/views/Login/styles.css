@@ -1,4 +1,33 @@
+.cxLogin{
+    margin-top: 100px;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.col-btn{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
 .btn{
     width: 100px;
-    margin-right: 10px;
+}
+
+/*** Mobile Responsividade */ 
+@media screen and (max-width: 900px) and (min-width: 320px)  {
+    .container{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    .cxLogin{
+        margin-top: -100px;
+        max-width: 100%;
+    }
+    .col-btn{
+        justify-content: center;
+    }
+    .btn{
+        width: 100%;
+        margin-right: 10px;
+    }
 }
